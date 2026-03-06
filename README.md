@@ -1,35 +1,44 @@
-# PowerBI-project
-## Dynamic Business Performance Dashboard in Power BI
+# 📊 Dynamic Business Performance Dashboard
 
-This project demonstrates the creation of an end-to-end Power BI dashboard designed to analyze business performance for a fictional manufacturing company. The project covers data transformation, relationship modeling, and advanced Power BI visuals like treemaps, scatter plots, and waterfalls. 
-The report offers dynamic insights into key metrics such as sales, gross profit, and quantity, utilizing DAX measures, switch measures, and conditional formatting to visualize growth opportunities and potential pain points. Features include YTD vs PYTD comparisons, custom switch measures, and drill-down functionality across multiple hierarchies (country, product type).
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-10B981?style=for-the-badge)
 
-### 1. Data Transformation:
-Source Data: Excel dataset with sales, account, and product hierarchy tables.
-Preprocessing: Loaded data into Power Query to clean up columns, remove duplicates, and ensure correct data types.
-Virtual Tables: Created a custom date table for time-based analysis from 01.01.2022 to 31.12.2024.
+> An end-to-end Business Intelligence solution providing dynamic insights into sales, gross profit, and quantity metrics for a manufacturing company. 
 
-### 2. DAX Measures & Calculations:
-Developed YTD, PYTD (prior year-to-date), and YTD vs PYTD switch measures for sales, quantity, and gross profit.
-Calculated variables for Gross Profit %, YTD vs PYTD comparisons, and built out measures for trend analysis.
+*(**Note:** Insert a high-quality GIF or Screenshot of your dashboard here to instantly grab the recruiter's attention!)*
+`![Dashboard Preview](./dashboard-preview.gif)`
 
-### 3. Data Model:
-Established relationships between tables using unique identifiers (Account ID, Product ID).
-Created calculated columns for a product family, group, and hierarchy navigation.
+## Project Objective
+To transform raw Excel sales data into an interactive, intuitive dashboard that allows stakeholders to instantly identify growth opportunities, track Year-to-Date (YTD) performance against the previous year (PYTD), and pinpoint underperforming regions or products.
 
-### 4. Visualizations & Dynamic Reporting:
-Dynamic Headings: Automatically updated based on slicer values for better user understanding of selected metrics.
-Slicers: Provided slicers for easy switching between sales, quantity, and gross profit across years and metrics.
+## Key Business Insights
+* **Performance Tracking:** Enabled instant YTD vs. PYTD comparisons across multiple hierarchies (Country, Product Type).
+* **Segmenting High-Value Accounts:** Utilised scatter plots (Gross Profit % vs YTD values) equipped with average benchmark lines to easily segment and identify top-performing accounts.
+* **Risk Identification:** Highlighted the bottom 10 underperforming countries using Treemaps, providing executives with a clear view of where intervention is needed.
 
-### 5. Key Visuals:
-YTD vs PYTD Waterfall Chart: Detailed comparison of performance by product type, country, and month, with drill-down capabilities.
-Scatter Plot: Showed Gross Profit % vs YTD values, enabling easy segmentation of high-value accounts.
-Stacked Column & Line Chart: Illustrated trends over time for different product types and regions, allowing for performance tracking.
-Tree Map: Highlighted the bottom 10 countries by YTD vs PYTD, providing a clear view of underperforming regions.
+## Technical Implementation
 
-### 6. Conditional Formatting & UX Enhancements:
-Applied conditional formatting in various visuals (e.g., red for negative growth, green for positive) to enhance clarity.
-Integrated average lines in scatter charts for quick assessment of performance relative to benchmarks.
-Customized dropdowns and filters for intuitive user navigation ensure the dashboard is interactive and user-friendly.
+**1. Data Transformation & Power Query**
+* Extracted raw Excel datasets encompassing sales, accounts, and product hierarchies.
+* Cleaned and preprocessed data using Power Query (removed duplicates, enforced data types).
+* Created a custom virtual Date Table to enable robust time-intelligence analysis.
 
-This project showcases how Power BI can deliver meaningful, actionable insights, driving business decisions through advanced analytics and intuitive visual designs.
+**2. Data Modelling**
+* Architected a relational data model establishing one-to-many relationships between fact and dimension tables via unique identifiers (Account ID, Product ID).
+* Engineered calculated columns for product families, groups, and hierarchy navigation.
+
+**3. Advanced DAX Measures**
+* Developed dynamic Time-Intelligence measures (YTD, PYTD).
+* Implemented complex `SWITCH` measures allowing users to toggle the entire dashboard's context between Sales, Quantity, and Gross Profit seamlessly.
+* Calculated vital variables for Gross Profit % and trend analysis comparisons.
+
+**4. Interactive Visualizations & UX**
+* **Dynamic Headings:** Titles automatically update based on user slicer selections to prevent cognitive overload.
+* **Waterfall Charts:** Detailed variance analysis of performance by product type, country, and month.
+* **Conditional Formatting:** Applied dynamic colour coding (e.g., red for negative growth, green for positive) across visuals to enhance immediate readability.
+
+## View the Report
+Since this report utilises advanced features, the best way to experience the interactivity is by viewing the demo video below or downloading the static PDF report:
+* [📄 View High-Res PDF Report](./Performance Report.pdf)
+* [🎥 Watch Video Walkthrough](./powerbi-demo.mp4)
