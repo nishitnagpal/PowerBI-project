@@ -6,8 +6,9 @@
 
 > An end-to-end Business Intelligence solution providing dynamic insights into sales, gross profit, and quantity metrics for a manufacturing company. 
 
-*(**Note:** Insert a high-quality GIF or Screenshot of your dashboard here to instantly grab the recruiter's attention!)*
-`![Dashboard Preview](./dashboard-preview.gif)`
+## Dashboard Preview
+
+https://github.com/user-attachments/assets/1cc74ba2-a137-40ff-8ccb-58ea7d3ca2b9
 
 ## Project Objective
 To transform raw Excel sales data into an interactive, intuitive dashboard that allows stakeholders to instantly identify growth opportunities, track Year-to-Date (YTD) performance against the previous year (PYTD), and pinpoint underperforming regions or products.
