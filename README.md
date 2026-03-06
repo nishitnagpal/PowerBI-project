@@ -40,6 +40,5 @@ To transform raw Excel sales data into an interactive, intuitive dashboard that 
 * **Conditional Formatting:** Applied dynamic colour coding (e.g., red for negative growth, green for positive) across visuals to enhance immediate readability.
 
 ## View the Report
-Since this report utilises advanced features, the best way to experience the interactivity is by viewing the demo video below or downloading the static PDF report:
-* [📄 View High-Res PDF Report](./Performance Report.pdf)
-* [🎥 Watch Video Walkthrough](./powerbi-demo.mp4)
+Since this report utilises advanced features, the best way to experience the interactivity is by viewing the demo video above or downloading the static PDF report:
+* [📄 View High-Res PDF Report](./PerformanceReport.pdf)
