@@ -8,7 +8,7 @@
 
 ## Dashboard Preview
 
-https://github.com/user-attachments/assets/1cc74ba2-a137-40ff-8ccb-58ea7d3ca2b9
+https://github.com/user-attachments/assets/2dd93e2f-7037-414e-a676-f14ce2196588
 
 ## Project Objective
 To transform raw Excel sales data into an interactive, intuitive dashboard that allows stakeholders to instantly identify growth opportunities, track Year-to-Date (YTD) performance against the previous year (PYTD), and pinpoint underperforming regions or products.
@@ -40,5 +40,7 @@ To transform raw Excel sales data into an interactive, intuitive dashboard that 
 * **Conditional Formatting:** Applied dynamic colour coding (e.g., red for negative growth, green for positive) across visuals to enhance immediate readability.
 
 ## View the Report
-Since this report utilises advanced features, the best way to experience the interactivity is by viewing the demo video above or downloading the static PDF report:
-* [📄 View High-Res PDF Report](./PerformanceReport.pdf)
+Since this report utilises advanced features, the best way to experience the interactivity is by viewing the demo video above or downloading the Business Insight PDF report:
+* [📄 View Business Analysis Insights Report](./BusinessAnalysis_Insights.pdf)
+
+
